@@ -30,7 +30,7 @@ int minAttendance = 75;
 int totalClasses; // Total Classes Held
 int classesPresent; // Number Of Classes present 
 
-int classCountPerDay = 6;
+int classCountPerDay = 7;
 
 
 int targetAttendance = 90;
@@ -41,7 +41,7 @@ float GetPercentage(int _present, int total) {
 	
 	return _percentage;
 }
-
+ 
 
 pi GetContinuousLeaves(float _present, float _total) {
 	//The Number Of Continuous Leaves Which Can Be taken So that Attendance Is Above 75
@@ -149,7 +149,7 @@ void Solution(){
 signed int main(){
 	
     #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
+    // freopen("input.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
     // freopen("error.txt", "w", stderr);
     #endif
